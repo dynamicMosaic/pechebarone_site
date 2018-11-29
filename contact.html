@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Contact Peche</title>
@@ -28,6 +23,7 @@
 							<li><a href="index.html">Home</a></li>
 							<li><a href="flashbook.html">Flashbook</a></li>
 							<li class="active"><a href="contact.html">Contact</a></li>
+							<li><a href="about.html">About</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.facebook.com/PecheBodyArt/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -72,19 +68,13 @@
 										Mama Tierra</p>
 									</section>
 									<section>
-										<!-- CHECKOUT FORM // Add SERVER-SIDE-CODE in action -->
-										<form action="your-server-side-code" method="POST">
-											<script
-											  src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-											  data-key="pk_test_TYooMQauvdEDq54NiTphI7jx"
-											  data-amount="999"
-											  data-name="Stripe.com"
-											  data-description="Example charge"
-											  data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-											  data-locale="auto"
-											  data-zip-code="true">
-											</script>
-										  </form>	
+										<h3>Send Deposit</h3>
+										<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+											<input type="hidden" name="cmd" value="_s-xclick">
+											<input type="hidden" name="hosted_button_id" value="5THCVQHKADADY">
+											<input type="image" src="https://www.paypalobjects.com/es_XC/AR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+											<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+											</form>
 									</section> -->
 									<section>
 											<h3>Email</h3>
@@ -100,11 +90,7 @@
 						</footer>
 					</div>
 						
-						<!-- Copyright -->
-						<div id="copyright">
-							<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-						</div>
-
+						
 			</div>
 
 		<!-- Scripts -->
